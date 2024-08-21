@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 72px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width:  50px;
+}
+.logo{
+    background-image: url("Images/logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.panel-ops{
+    height: 72px;
+    width: 696px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 264px;
+    height: 36px;
+    border-radius: 4px;
+}
+.serach-icon{
+    height: 100%;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: left;
+    font-size: 1.2rem;
+    background-color:white ;
+    color: #0F1111;
+    display: flex;
+    background-color: yellow;
+}
+i{
+    height: 20px;
+    width: 20px;
+}
+.search-input{
+    border-radius: 25px;
+    width: 100%;
+}
+.profile-icon{
+    border: 1.8px solid black;
+    border-radius: 25px;
+    align-items: center;
+}
+.second-bar{
+    background-color: #198754;
+    height: 80px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.A{
+    color: white;
+    margin-left: 40px;
+    font-size: 1.8rem;
+}
+.B{
+    border: 1.8px solid white;
+    border-radius: 25px;
+}
+.hero-section{
+    background-image: url("Images/Hero\ img.png");
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+.foot-panel{
+    background-color: #198754;
+    height: 720px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-panel2{
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+ul a{
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #dddddd;
+    padding-left: 12px;
+}
+.Main{
+    font-size: 2rem;
+}
+.footer-logo{
+    background-image: url("Images/logo.png");
+    background-size: cover;
+    height: 62px;
+    width: 62px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.foot-icon{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-images{
+    background-image: url("Images/footerlogo2.png");
+
+}
